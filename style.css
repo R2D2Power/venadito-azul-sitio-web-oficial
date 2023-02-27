@@ -1,0 +1,78 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: #79a8af;
+  text-align: center;
+}
+
+
+.menu-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-container > div {  
+  color: white;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.menu-item{
+  border: 2px solid #171717;
+  border-radius: 8px;
+  padding: 20px;
+  padding-bottom: 0px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: flex-end;
+  box-sizing: border-box
+}
+
+.logo{
+  background-color: #171717;
+  border: 2px solid #171717;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  padding: 0 0 0 0;
+  display: flex; /* centra la imagen horizontalmente */
+  justify-content: center; /* centra la imagen horizontalmente */
+  overflow: hidden;
+}
+
+.logo-img{
+  height: auto;
+  width: 100%;
+  
+}
+
+.shop-online{
+  background-color: #66225b;
+}
+
+.gallery{
+  background-color: #114826;
+}
+
+.eventos{
+  background-color: #114826;
+}
+
+.talleres{
+  background-color: #114826;  
+}
+
+.colabs{
+  background-color: #114826
+}
+
+.contacto{
+  background-color: #212e4d;
+}
